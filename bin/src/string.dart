@@ -11,5 +11,6 @@ var shortName = name.substring(0, 3);
 var phone = 888999333;
 String phoneText = phone.toString();
 int phoneNumberFromText = int.parse(phoneText.substring(0, 2));
+final formula1 = (String a) => a + " done";
   // print(phoneText);
   // print(phoneNumberFromText);
